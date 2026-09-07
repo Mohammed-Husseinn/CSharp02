@@ -37,3 +37,19 @@ Console.WriteLine(book.GetType());
 
 int pages = 464;
 Console.WriteLine(pages);
+
+// Question 4
+try
+{
+    int numerator = 10;
+    int denominator = 0;
+    int result = numerator / denominator;
+}
+catch (DivideByZeroException)
+{
+    Console.WriteLine("Cannot divide by zero");
+}
+finally
+{
+    Console.WriteLine("Done");
+}
