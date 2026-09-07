@@ -89,3 +89,10 @@ else
 {
     Console.WriteLine("Invalid number");
 }
+
+// Question 9
+int pages = 464;
+string pagesText = pages.ToString();
+
+Console.WriteLine(pagesText);
+Console.WriteLine(pagesText.GetType());
