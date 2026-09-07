@@ -132,3 +132,11 @@ string? title = book?.Title;
 Console.WriteLine(title ?? "Untitled");
 title ??= "Untitled";
 Console.WriteLine(title);
+
+// Question 15
+
+string? name = "Ahmed";
+
+string confirmedName = name!;
+
+Console.WriteLine(confirmedName);
