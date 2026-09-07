@@ -20,5 +20,14 @@ class Program
         object obj = book;
 
         Console.WriteLine(obj);
+
     }
 }
+
+// Question 2 
+Book book = new Book { Title = "C# Fundamentals", Pages = 464 };
+
+Console.WriteLine(book.ToString());
+Console.WriteLine(book.Equals(book));
+Console.WriteLine(book.GetHashCode());
+Console.WriteLine(book.GetType());
