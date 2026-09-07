@@ -106,3 +106,11 @@ int unboxedCopies = (int)boxedCopies;
 
 Console.WriteLine(boxedCopies);
 Console.WriteLine(unboxedCopies);
+
+
+// Question 11
+int? year = null;
+Console.WriteLine(year.HasValue);
+
+year = 2023;
+Console.WriteLine(year.Value);
