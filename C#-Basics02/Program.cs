@@ -53,3 +53,10 @@ finally
 {
     Console.WriteLine("Done");
 }
+
+
+// Question 5
+int pages = 300;
+double doublePages = pages;
+
+Console.WriteLine(doublePages);
