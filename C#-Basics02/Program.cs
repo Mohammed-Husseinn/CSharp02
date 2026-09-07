@@ -118,3 +118,9 @@ Console.WriteLine(year.Value);
 // Question 12
 string? reviewer = null;
 Console.WriteLine(reviewer is null);
+
+// Question 13
+
+Book? book = null;
+string? title = book?.Title;
+Console.WriteLine(title is null ? "null" : title);
