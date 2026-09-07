@@ -60,3 +60,10 @@ int pages = 300;
 double doublePages = pages;
 
 Console.WriteLine(doublePages);
+
+
+// Question 6
+double price = 49.99;
+int intPrice = (int)price;
+
+Console.WriteLine(intPrice);
