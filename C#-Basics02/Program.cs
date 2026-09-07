@@ -67,3 +67,10 @@ double price = 49.99;
 int intPrice = (int)price;
 
 Console.WriteLine(intPrice);
+
+
+// Question 7
+string pagesText = "464";
+int pages = Convert.ToInt32(pagesText);
+
+Console.WriteLine(pages);
