@@ -1,10 +1,24 @@
-﻿namespace C__Basics02
+﻿// Question 1 
+using System;
+
+class Book
 {
-    internal class Program
+    public string Title { get; set; }
+    public int Pages { get; set; }
+}
+
+class Program
+{
+    static void Main()
     {
-        static void Main(string[] args)
+        Book book = new Book
         {
-            Console.WriteLine("Hello, World!");
-        }
+            Title = "C# Programming",
+            Pages = 464
+        };
+
+        object obj = book;
+
+        Console.WriteLine(obj);
     }
 }
