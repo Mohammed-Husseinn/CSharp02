@@ -124,3 +124,11 @@ Console.WriteLine(reviewer is null);
 Book? book = null;
 string? title = book?.Title;
 Console.WriteLine(title is null ? "null" : title);
+
+// Question 14 
+Book? book = null;
+string? title = book?.Title;
+
+Console.WriteLine(title ?? "Untitled");
+title ??= "Untitled";
+Console.WriteLine(title);
