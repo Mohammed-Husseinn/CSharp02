@@ -74,3 +74,18 @@ string pagesText = "464";
 int pages = Convert.ToInt32(pagesText);
 
 Console.WriteLine(pages);
+
+// Question 8
+
+string yearText = "2023";
+int year = int.Parse(yearText);
+
+string badText = "abc";
+if (int.TryParse(badText, out int parsedValue))
+{
+    Console.WriteLine(parsedValue);
+}
+else
+{
+    Console.WriteLine("Invalid number");
+}
